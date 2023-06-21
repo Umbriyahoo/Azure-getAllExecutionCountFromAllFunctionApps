@@ -12,7 +12,7 @@ $subscriptionId = $select.SubscriptionId
 Set-AzContext -SubscriptionId $subscriptionId
 
 # Provide the resource group and Function App name
-$resourceGroupName = "dxc-automation-rg"
+$resourceGroupName = "Your RG name"
 
 # Get all Function Apps in the resource group
 $functionApps = Get-AzFunctionApp -ResourceGroupName $resourceGroupName
